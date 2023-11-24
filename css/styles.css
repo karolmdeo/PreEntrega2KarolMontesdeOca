@@ -1,0 +1,255 @@
+
+
+@font-face {
+    font-family: "Turista Gorda NF W01 Regular";
+    src: url("https://db.onlinewebfonts.com/t/3cfe6d7e2919d98e0c6994d3dfbeda2c.eot");
+    src: url("https://db.onlinewebfonts.com/t/3cfe6d7e2919d98e0c6994d3dfbeda2c.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/3cfe6d7e2919d98e0c6994d3dfbeda2c.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/3cfe6d7e2919d98e0c6994d3dfbeda2c.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/3cfe6d7e2919d98e0c6994d3dfbeda2c.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/3cfe6d7e2919d98e0c6994d3dfbeda2c.svg#Turista Gorda NF W01 Regular")format("svg");
+}
+@font-face {
+    font-family: "Oswald";
+    src: url(/fonts/Oswald-VariableFont_wght.ttf) format('woff2')
+    
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+    font-size: 20px;
+}
+
+html, body{
+    height:100%;
+    margin:0;
+    padding:0;
+    display: block;
+}
+
+body {
+    background-color: #834F30ff; 
+    background-image:url(https://wallpaperset.com/w/full/9/c/b/544060.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.header {
+    background-color: #E4D6A7;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+    padding: 5px 10%;
+    
+    
+}
+
+
+a {
+    text-decoration: none;
+    color: #F9ADA0;
+}
+
+
+
+
+.header .lista-nav li {
+    display: inline-block;
+    font-size: smaller;
+    list-style: none;
+    padding: 0 20px;
+}
+
+.header .lista-nav li:hover{
+    transform: scale(1.1);
+    ;
+}
+.header .lista-nav li a:hover{
+    color: #945D5E;
+}
+
+nav a{
+    font-size: 300;
+    font-weight: 200;
+    color: #511C29;
+    font-family:  "Turista Gorda NF W01 Regular";
+}
+
+.header .logo {
+    height: 78px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo:hover {
+    transform: scale(1.2);
+}
+
+.header .btn button{
+    font-weight: 150;
+    color:#E4D6A7;
+    padding: 9px 25px;
+    background: #511C29;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: "Turista Gorda NF W01 Regular";
+}
+
+.header .btn button:hover{
+    transform: scale(1.1);
+    background-color: #945D5E;
+}
+
+h1 {
+    font-family: "Turista Gorda NF W01 Regular" ;
+    font-weight: 200;
+    margin-left: 800px;
+    margin-top: 40px;
+}
+.caja-biografia {
+    width: 400px; 
+    height: 300px;   
+    margin-left: 800px;
+    margin-top: 30px;
+    padding: 1px;  
+}
+.k2 {
+    font-family: "Oswald";
+    text-align: left;
+    font-weight: 400;
+}
+.link-bio .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.link-bio .box figure img {
+    width: 120px;
+}
+
+.link-bio .box img:hover{
+    transform: scale(1.1)
+}
+.data {
+    width: 1000px; 
+    height: 300px;   
+    margin-left: 200px;
+    margin-top: 100px;
+    padding: 1px;
+}
+.k {
+    font-family:"Oswald";
+    text-align: left;
+    color: #E4D6A7;
+    font-weight: 400;
+}
+
+
+.galeria {
+    background-color: #511C29;
+}
+.discografia {
+    background-color: #511C29;
+}
+.contacto {
+    background-color: #511C29;
+}
+.eventos {
+    background-color: #511C29;
+}
+
+/* quiero poner el footer fijado en el pie de la pagina pero me queda mal y no me queda como quiero :( */
+.footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-bottom: 0px;
+    min-height: 70px;
+    left:0px;
+    right: 0px;
+    background-color: #E4D6A7 ;
+}
+
+.footer .grupo-1{
+    display: grid;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 30px 0px;
+}
+
+.footer .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .grupo-1 .box figure img {
+    width: 150px;
+}
+
+.footer .grupo-1 .box p {
+    color: #511C29;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: 50px;
+    font-family: "Turista Gorda NF W01 Regular";
+    font-size: 20px;
+}
+
+.footer .grupo-1 .box .redes img{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    color: #945D5E;
+    margin-right: 10px;
+    margin-left: 45px;
+    margin-top: 35px;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.footer .grupo-1 .box .redes img:hover{
+    transform: scale(1.1)
+}
+
+.footer .grupo-2{
+    padding: 15px 10px;
+    text-align: center;
+    color: #511C29;
+}
+
+.footer .grupo-2 small{
+    font-size: 15px;
+}
+  
+
+/* aca irian los mediaqueries pero pasaron cosas */
+
+    
+
+    
+
+
+

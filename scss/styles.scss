@@ -1,0 +1,165 @@
+font-face {
+	font-family: 'tapestry';
+	src: url(;
+}
+font-face {
+	font-family: "Turista Gorda NF W01 Regular";
+	src: url("https;
+	src: url("https;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 20px;
+}
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+body {
+	background-color: #834F30ff;
+}
+.header {
+	background-color: #E4D6A7;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 85px;
+	padding: 5px 10%;
+	.lista-nav li {
+		display: inline-block;
+		font-size: smaller;
+		list-style: none;
+		padding: 0 20px;
+		&:hover {
+			transform: scale(1.1);
+		}
+		&:hover {
+			color: #945D5E;
+		}
+	}
+	.logo {
+		height: 78px;
+		width: auto;
+		transition: all 0.3s;
+		&:hover {
+			transform: scale(1.2);
+		}
+	}
+	.btn button {
+		font-weight: 150;
+		color: #E4D6A7;
+		padding: 9px 25px;
+		background-color: #511C29;
+		border: none;
+		border-radius: 50px;
+		cursor: pointer;
+		transition: all 0.3s ease 0s;
+		font-family: "Turista Gorda NF W01 Regular";
+		&:hover {
+			transform: scale(1.1);
+			background-color: #945D5E;
+		}
+	}
+}
+a {
+	text-decoration: none;
+	color: #F9ADA0;
+	&:hover {
+		color: #945D5E;
+	}
+}
+.caja-rosada {
+	background-color: #F9ADA0;
+	width: 300px;
+	height: 300px;
+	margin: 100px 50px 20px 15px;
+	padding: 1px;
+}
+nav a {
+	font-size: 300;
+	font-weight: 200;
+	color: #511C29;
+	font-family: "Turista Gorda NF W01 Regular";
+}
+h1 {
+	font-family: 'tapestry' ;
+}
+.lanapink {
+	height: 400px;
+	&2 {
+		height: 400px;
+	}
+	&3 {
+		height: 400px;
+	}
+}
+.galeria {
+	background-color: #E8D6CB;
+}
+.discografia {
+	background-color: #E8D6CB;
+}
+.contacto {
+	background-color: #E8D6CB;
+}
+.eventos {
+	background-color: #E8D6CB;
+}
+.lanaindex {
+	height: 400px;
+}
+.footer {
+	width: 100%;
+	background-color: #E4D6A7 ;
+	.grupo-1 {
+		display: grid;
+		width: 100%;
+		max-width: 1200px;
+		margin: auto;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 50px;
+		padding: 30px 0px;
+		.box figure {
+			width: 100%;
+			height: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			img {
+				width: 150px;
+			}
+		}
+		.box p {
+			color: black;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-bottom: 15px;
+			margin-top: 50px;
+			font-family: "Turista Gorda NF W01 Regular";
+			font-size: 20px;
+		}
+		.box .redes img {
+			display: inline-block;
+			justify-content: center;
+			align-items: center;
+			width: 45px;
+			height: 45px;
+			color: #945D5E;
+			margin-right: 10px;
+			margin-left: 50px;
+			margin-top: 35px;
+			text-align: center;
+			transition: all 300ms ease;
+			&:hover {
+				transform: scale(1.1);
+			}
+		}
+	}
+}
+
